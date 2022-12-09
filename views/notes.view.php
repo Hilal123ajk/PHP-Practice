@@ -10,12 +10,13 @@
     </div>
   </header>
   <main>
-     <p class="text-gray-700 mx-20 my-5">Your are on home page</p>
-     <div class="mx-10">
 
-     
-      
-
+    <div class="mx-auto max-w-7xl py-6 sm:px-6 log:px-8">
+        <?php foreach($notes as $note) : ?>
+          <a class="text-blue-500 hover:underline" href="/note?id=<?= $note['id'] ?>">
+            <li><?= $note['note_body']; ?></li>
+          </a>
+        <?php endforeach; ?>  
     </div>
      
   </main>

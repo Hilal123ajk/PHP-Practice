@@ -10,12 +10,13 @@
     </div>
   </header>
   <main>
-     <p class="text-gray-700 mx-20 my-5">Your are on home page</p>
-     <div class="mx-10">
 
-     
-      
+    <div class="mx-auto max-w-7xl py-6 sm:px-6 log:px-8">
+    
+        <p class="text-blue-500 hover:underline my-4"><a href="/notes">Back to notes...</a></p>
 
+        <?php echo $note['note_body']; ?>
+           
     </div>
      
   </main>

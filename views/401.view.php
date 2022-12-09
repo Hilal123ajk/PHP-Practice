@@ -6,18 +6,14 @@
 
   <header class="bg-white shadow">
     <div class="mx-auto max-w-7xl py-6 px-4 sm:px-6 lg:px-8">
-      <h1 class="text-3xl font-bold tracking-tight text-gray-900"><?= $pageHeading; ?></h1>
+      <h1 class="text-3xl font-bold tracking-tight text-green-900">401 You are unauthorized.</h1>
     </div>
   </header>
   <main>
-     <p class="text-gray-700 mx-20 my-5">Your are on home page</p>
-     <div class="mx-10">
 
-     
-      
-
-    </div>
-     
+     <p class="text-blue-700 mx-20 my-5 underline">
+        <a href="/">Go to home page</a>
+     </p>
   </main>
 
   <!-- Footer  -->
